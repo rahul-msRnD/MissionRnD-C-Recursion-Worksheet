@@ -35,7 +35,6 @@ int count_pairs(char *str, int len, int s, int e){
 		if (str[s] == str[s + 2])
 			a = 1;
 	}
-
 	return a+count_pairs(str, len-1, s+1, e);
 }
 
